@@ -4,3 +4,6 @@ C:\Users\Jurate\Documents\Visual Studio 2015\Projects\IstorijosTestas\IstorijosT
 C:\Users\Jurate\Documents\Visual Studio 2015\Projects\IstorijosTestas\IstorijosTestas\obj\Debug\IstorijosTestas.csprojResolveAssemblyReference.cache
 C:\Users\Jurate\Documents\Visual Studio 2015\Projects\IstorijosTestas\IstorijosTestas\obj\Debug\IstorijosTestas.exe
 C:\Users\Jurate\Documents\Visual Studio 2015\Projects\IstorijosTestas\IstorijosTestas\obj\Debug\IstorijosTestas.pdb
+C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\bin\Debug\IstorijosTestas.exe.config
+C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\obj\Debug\IstorijosTestas.exe
+C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\obj\Debug\IstorijosTestas.pdb

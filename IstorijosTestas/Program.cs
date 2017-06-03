@@ -10,7 +10,7 @@ namespace IstorijosTestas
     {
         static void Main(string[] args)
         {
-            Story test = new Story("Eglute");
+            Story test = new Story("Eglute");               // gauti zaidejo varda is pacio zaidejo
             StoryAndPointer pointer = new StoryAndPointer();
             bool hasOptions = false;                // jei turi pasirinkimu, tai juos ir rodysim, gaudysim tikslu input
             StoryAndPointer[] choices = new StoryAndPointer[10];
