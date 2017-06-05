@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace IstorijosTestas
 {
@@ -10,6 +11,10 @@ namespace IstorijosTestas
     {
         static void Main(string[] args)
         {
+            // Agresyvumo testo klausimai
+            Test a = new Test();
+            a.AskAll();
+
             Story test = new Story("Eglute");               // gauti zaidejo varda is pacio zaidejo
             StoryAndPointer pointer = new StoryAndPointer();
             bool hasOptions = false;                // jei turi pasirinkimu, tai juos ir rodysim, gaudysim tikslu input

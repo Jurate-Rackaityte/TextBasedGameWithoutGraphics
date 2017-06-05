@@ -24,10 +24,14 @@ namespace IstorijosTestas
         string testInputFolderPath = @"C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\test data\input";
         string testOutputFolderPath = @"C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\test data\output";
 
+<<<<<<< HEAD
         int[][] trainData;       //VELIAU: PADARYTI TESTINIU DUOMENU NUSKAITYMA IS FAILO
         int[][] testData;        //VELIAU: PADARYTI TESTINIU DUOMENU NUSKAITYMA IS FAILO
 		
         NeuralNetwork nn = new NeuralNetwork(numInput, numHidden, numOutput);
+=======
+        //NeuralNetwork nn = new NeuralNetwork(numInput, numHidden, numOutput);
+>>>>>>> no message
 
         // uzpildom trainData ir testData masyvus
         nn.readFiles(trainInputFolderPath, trainOutputFolderPath, out trainData, numInput, numOutput);
