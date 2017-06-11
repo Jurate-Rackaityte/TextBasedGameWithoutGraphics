@@ -10,35 +10,35 @@ namespace IstorijosTestas
     class Test
     {
         String[] Questions = 
-            {"Once in a while I can't control the urge to strike another person.",
-            "Given enough provocation, I may hit another person.",
-            "If somebody hits me, I hit back.",
-            "I get into fights a little more than the average person",
-            "If I have to resort to violence to protect my rights, I will.",
-            "There are people who pushed me so far that we came to blows.",
-            "I can think of no good reason for ever hitting a person.",
-            "I have threatened people I know.",
-            "I have become so mad that I have broken things.",
-            "I tell my friends openly when I disagree with them.",
-            " I often find myself disagreeing with people.",
-            "When people annoy me, I may tell them what I think of them.",
-            "I can't help getting into arguments when people disagree with me.",
-            "My friends say that I'm somewhat argumentative.",
-            "I flare up quickly but get over it quickly.",
-            "When frustrated, I let my irritation show.",
-            "I sometimes feel like a powder keg ready to explode",
-            "I am an even-tempered person.",
-            "Some of my friends think I'm a hothead",
-            "Sometimes I fly off the handle for no good reason.",
-            "I have trouble controlling my temper.",
-            "I am sometimes eaten up with jealousy.",
-            "At times I feel I have gotten a raw deal out of life.",
-            "Other people always seem to get the breaks.",
-            "I wonder why sometimes I feel so bitter about things",
-            "I know that \"friends\" talk about me behind my back.",
-            "I am suspicious of overly friendly strangers.",
-            "I sometimes feel that people are laughing at me behind me back.",
-            "When people are especially nice, I wonder what they want."};
+            {"Once in a while I can't control the urge to strike another person.\n",
+            "Given enough provocation, I may hit another person.\n",
+            "If somebody hits me, I hit back.\n",
+            "I get into fights a little more than the average person\n",
+            "If I have to resort to violence to protect my rights, I will.\n",
+            "There are people who pushed me so far that we came to blows.\n",
+            "I can think of no good reason for ever hitting a person.\n",
+            "I have threatened people I know.\n",
+            "I have become so mad that I have broken things.\n",
+            "I tell my friends openly when I disagree with them.\n",
+            " I often find myself disagreeing with people.\n",
+            "When people annoy me, I may tell them what I think of them.\n",
+            "I can't help getting into arguments when people disagree with me.\n",
+            "My friends say that I'm somewhat argumentative.\n",
+            "I flare up quickly but get over it quickly.\n",
+            "When frustrated, I let my irritation show.\n",
+            "I sometimes feel like a powder keg ready to explode\n",
+            "I am an even-tempered person.\n",
+            "Some of my friends think I'm a hothead\n",
+            "Sometimes I fly off the handle for no good reason.\n",
+            "I have trouble controlling my temper.\n",
+            "I am sometimes eaten up with jealousy.\n",
+            "At times I feel I have gotten a raw deal out of life.\n",
+            "Other people always seem to get the breaks.\n",
+            "I wonder why sometimes I feel so bitter about things\n",
+            "I know that \"friends\" talk about me behind my back.\n",
+            "I am suspicious of overly friendly strangers.\n",
+            "I sometimes feel that people are laughing at me behind me back.\n",
+            "When people are especially nice, I wonder what they want.\n"};
 
         double physical = 0;
         double verbal = 0;
@@ -46,7 +46,9 @@ namespace IstorijosTestas
         double hostility = 0;
         void Question(string q, ref double points)
         {
-            Console.Write(q + "\n" + "extremely uncharacteristic of me (1) to extremely characteristic of me (7)" + "\n");
+            Console.Write(q + "\n" + "1 - extremely uncharacteristic of me\n2 - uncharacteristic of me\n"+
+                "3 - somewhat characteristic of me\n4 - I don't know\n5 - somewhat characteristic of me\n" +
+                "6 - characteristic of me\n7 - extremely characteristic of me" + "\n");
             string answ = Console.ReadLine();
             switch (answ)
             {
@@ -72,10 +74,12 @@ namespace IstorijosTestas
                     points += 7;
                     break;
                 default:
-                    Console.WriteLine("Netinkamas parinkimas");
+                    Console.WriteLine("Invalid answer");
                     Question(q, ref points);
                     break;
             }
+            Console.WriteLine();
+            Console.WriteLine("---------------------------------------");
         }  
         void writeToFile()
         {
@@ -83,6 +87,7 @@ namespace IstorijosTestas
         }
         public void AskAll()
         {
+            Console.WriteLine("Please answer the following questions:\n\n");
             for(int i = 0; i < Questions.Length; i++)
             {
                 if(i <= 8)

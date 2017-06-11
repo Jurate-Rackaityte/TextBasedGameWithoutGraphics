@@ -13,11 +13,12 @@ namespace IstorijosTestas
         private int optionPointer;
         private string stage;               //dabartinio stage vardas???
         private string previousStage;       //praeito stage vardas
-        bool telekinesisKnown, metJosh, rebelSide, robotsAreComing, haveJoanna, MessedToEmpty, MysteryGirlDead, 
-            MysteryGirlMet, hadSeriousFight, endFight, leakingGas, JoannaAlive, JoshAlive, helpOtherCountryToWin, theEnd;
+        bool telekinesisKnown, metJosh, rebelSide, robotsAreComing, haveJoanna, MessedToEmpty, MysteryGirlDead,
+            MysteryGirlMet, hadSeriousFight, endFight, leakingGas, JoannaAlive, JoshAlive;
+        public bool helpOtherCountryToWin, theEnd;
         private string heroesName;
         private int robotFinalCount;
-        private const int numberOfOptions = 122;
+        private const int numberOfOptions = 123;
 
         public Story(string playerName)
         {
@@ -1167,9 +1168,9 @@ namespace IstorijosTestas
             story[80].addText("The woman tried to fight back when we were putting her back into her chair. We went to Joanna. She was still breathing. We started discussing how to get her conscious again, when she woke up herself.");
             story[80].setNextStage("Crazy girl resolution");
 
-            story[63].setName("Tie crazy girl. Josh unconscious");
-            story[63].addText("I quickly use telekinesis to take the rope from Josh's palms and tie womans hands with it. The woman tried to fight back when we were putting her back into her chair.");
-            story[63].setNextStage("Crazy girl resolution. Josh unconscios");
+            story[122].setName("Tie crazy girl. Josh unconscious");
+            story[122].addText("I quickly use telekinesis to take the rope from Josh's palms and tie womans hands with it. The woman tried to fight back when we were putting her back into her chair.");
+            story[122].setNextStage("Crazy girl resolution. Josh unconscios");
 
             story[63].setName("Crazy girl resolution. Josh unconscios");
             story[63].addText("We went to Josh. He was still breathing. We started discussing how to get him conscious again, when he woke up himself.");
@@ -1490,7 +1491,7 @@ namespace IstorijosTestas
             story[121].setName("the end");       //the end bus tas pats visiems, kad zinociau, kada pasibaige
             story[121].addText("THE END.");
             story[121].setTrigger("end of story");
-            // 120
+            // 122
         }
     }
 }
