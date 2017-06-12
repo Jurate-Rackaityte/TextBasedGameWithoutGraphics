@@ -20,9 +20,9 @@ namespace IstorijosTestas
             bool hasOptions = false;                // jei turi pasirinkimu, tai juos ir rodysim, gaudysim tikslu input
             StoryAndPointer[] choices = new StoryAndPointer[10];
 
-            Console.WriteLine("Now please read the story and choose the best fit answers.");
-            Console.WriteLine("It\'s a text-based game, so don\'t worry. Every answer is a good answer.");
-            Console.WriteLine("Just try to survive.");
+            Console.WriteLine("\t" + "Now please read the story and choose the best fit answers.");
+            Console.WriteLine("\t" + "It\'s a text-based game, so don\'t worry. Every answer is a good answer.");
+            Console.WriteLine("\t" + "Just try to survive.");
             Console.WriteLine("---------------------------------------");
             Console.WriteLine();
 
@@ -50,7 +50,7 @@ namespace IstorijosTestas
                 //parasyti i console teksta
                 if(!hasOptions)
                 {
-                    Console.WriteLine(pointer.getStory());
+                    Console.WriteLine("\t" + pointer.getStory());
                     Console.ReadLine();
                 }
                 else
@@ -60,7 +60,7 @@ namespace IstorijosTestas
                     for(int i = 1; i < choices.Length; i++)
                     {
                         if(!choices[i].getStory().Equals(""))
-                        Console.WriteLine("[" +i + "] : " + choices[i].getStory());
+                        Console.WriteLine("\t[" +i + "] : " + choices[i].getStory());
                         
                     }
                     Console.WriteLine("---------------------------------------");
@@ -76,8 +76,8 @@ namespace IstorijosTestas
                 //jei yra options: juos parasyti 
                 //pagauti is consoles input
                 Console.WriteLine("---------------------------------------");
-                Console.WriteLine("Health: " + test.myHealth);
-                Console.WriteLine("Mana: " + test.myMana);
+                Console.WriteLine("\tHealth: " + test.myHealth);
+                Console.WriteLine("\tMana: " + test.myMana);
                 Console.WriteLine("---------------------------------------");
                 Console.WriteLine();
             }

@@ -673,7 +673,7 @@ namespace IstorijosTestas
             story[16].setName("main05");
             story[16].addText("The light turns black.");
             story[16].addText("I blink few times. “Wait… what?” – I whisper into darkness. Few seconds later robot turns his eyes’ flashlights.");
-            story[16].addText("“Everyone, calm do…” – the robot started to say, but then Josh realised what just happened and jumped on the robot, attacking him.");
+            story[16].addText("“Everyone, calm do...” – the robot started to say, but then Josh realised what just happened and jumped on the robot, attacking him.");
             story[16].addText("We were free. Our cells were no longer a cell. Without electric grid, we were merely two people and a robot in one big room.");
             story[16].addText("I look into a started fight between the robot and Josh the grunting crazy-looking neighbour. I need to interfere or they will kill one another. And so I:");
             story[16].addChoice("Save the neighbour", "rebels side");
@@ -727,7 +727,7 @@ namespace IstorijosTestas
 
             story[22].setName("rebel main 01");
             story[22].addText("I loudly exhale.\n“So… what do we do now ?” – I ask.\n„We run, of course“ – Josh says. I turn to the doors.");
-            story[22].addChoice("Go through the doors in fron of you", "go straight 01");
+            story[22].addChoice("Go through the doors in front of you", "go straight 01");
             story[22].addChoice("Go through the doors on your right", "turn right 01");
 
             story[23].setName("go straight 01");
@@ -889,7 +889,7 @@ namespace IstorijosTestas
             story[41].addText("Another choice.");
             story[41].addChoice("Go through the doors on our left", "Humans");
             story[41].addAlternative(1, "Humans 02");
-            story[41].addChoice("Go through the doors on our right", "Messed 02");
+            story[41].addChoice("Go through the doors on our right", "Messed room 02");
             story[41].addAlternative(1, "Empty cell. With Joanna");
             story[41].addChoice("Continue going through the corridor", "Straight 03");
 
@@ -998,7 +998,7 @@ namespace IstorijosTestas
             story[94].addChoice("Continue going through the corridor", "Stage3 2nd crossroad");
 
             story[95].setName("Dead body");
-            story[95].addText("We go through the doors and an unusual smell reaches our nostrils. We get past the speaker to see what has happened here and see an unknown gender man sitting in the chair.");
+            story[95].addText("We go through the doors and an unusual smell reaches our nostrils. We get past the speaker to see what has happened here and see an unknown gender person sitting in the chair.");
             story[95].addText("From the look of it, it seemed like the man has been tied to the chair for days, though he died just an hour ago. There is nothing how we can help him anymore, so we get back.");
 
             story[89].setName("Leaking gas room");
@@ -1066,7 +1066,7 @@ namespace IstorijosTestas
             story[72].addText("Quickly reacting to the punch, Joanna punches the woman back.");
             story[72].setNextStage("Crazy girl hit");
 
-            story[73].setName("Me hit 5. Crazy girl");
+            story[73].setName("Me hit crazy girl");
             story[73].setAggressiveness(1);
             story[73].addText("Quickly reacting to the punch, I punch the woman back.");
             story[73].setNextStage("Crazy girl hit");
