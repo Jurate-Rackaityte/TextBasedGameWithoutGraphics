@@ -104,7 +104,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Back-propagationcs.cs" />
     <Compile Include="Networks\AccordNetwork.cs" />
     <Compile Include="Networks\INetwork.cs" />
     <Compile Include="Networks\Network.cs" />
@@ -113,7 +112,6 @@
     <Compile Include="OutliersDetection\OutliersCalculator.cs" />
     <Compile Include="ProcessData.cs" />
     <Compile Include="Test.cs" />
-    <Compile Include="NeuralNetwork.cs" />
     <Compile Include="Option.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
