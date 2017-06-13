@@ -15,10 +15,10 @@ namespace IstorijosTestas
         {
             int agresyvumas;
             // kuo didesni sie rodikliai, tuo didesnis agresyvumas
-            agresyvumas = Convert.ToInt32(Math.Floor(playersHealth * 0.5 + playersMana * 0.5 + 
-                JoannaHealth * 0.25 + aggression * 2));
+            agresyvumas = Convert.ToInt32(Math.Floor(playersHealth * 0.5 + playersMana * 0.5 +
+                JoannaHealth * 0.25 + aggression * 5));
             // kuo didesni sie rodikliai, tuo mazesnis agresyvumas
-            agresyvumas = agresyvumas - Convert.ToInt32(Math.Floor(JoannaMana * 0.5 + 
+            agresyvumas = agresyvumas - Convert.ToInt32(Math.Floor(JoannaMana * 0.5 +
                 JoshHealth * 0.1 + JoshMana * 0.25));
             return agresyvumas;
         }
