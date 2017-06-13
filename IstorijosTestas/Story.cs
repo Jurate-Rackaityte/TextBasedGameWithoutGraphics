@@ -446,7 +446,7 @@ namespace IstorijosTestas
         {
             story[0].setName("main01");
             story[0].addText("They‘ve come again.");
-            story[0].addText("Dark rooms, filled with wretched whispers. Giant eye, silently watching me…");
+            story[0].addText("Dark rooms, filled with wretched whispers. Giant eye, silently watching me...");
             story[0].addText("They all wanted me to feel miserable, alone, powerless, out of control... And so I’ve");
             story[0].addChoice("started to run", "01");
             story[0].addChoice("tried to fight them", "02");
@@ -454,7 +454,7 @@ namespace IstorijosTestas
             story[1].setName("01");
             story[1].addText("I ran deeper into the darkness, desperately trying to escape the giant eye. However, it’s gaze did not leave me for a second, petrifying me more and more with every step I took. Shadowy figures squealed behind me, restlessly chasing me. ");
             story[1].addText("My legs started to feel heavy. My pace reluctantly slowed down. Heart raced so quickly, it seemed it will jump out any second. Shadowy figures reached me, tied me, lifted my head. The huge drill was already there, ready to pierce through my skull. ");
-            story[1].addText("The giant eye looked to the instrument getting closer and closer to my head. Suddenly I’ve felt the tip of the drill touch the forehead and an immense pain shuddered my body. Eyes wide open I’ve scream into nowhere and… and.. and…");
+            story[1].addText("The giant eye looked to the instrument getting closer and closer to my head. Suddenly I’ve felt the tip of the drill touch the forehead and an immense pain shuddered my body. Eyes wide open I’ve scream into nowhere and... and.. and...");
             story[1].setNextStage("main02");
 
             story[2].setName("02");
@@ -469,7 +469,7 @@ namespace IstorijosTestas
             story[2].setNextStage("main02");
 
             story[3].setName("main02");
-            story[3].addText("… woke up.");
+            story[3].addText("... woke up.");
             story[3].addText("My body still trembles. I gasp for air in my capsule. Few warm teardrops run through my cheeks. ");
             story[3].addText("“It’s just a dream. It’s just a dream” – I tell myself.");
             story[3].addText("But tears still fill my eyes, preventing me from seeing clear. Feeling defeated, I huddle and wrap my arms around myself.");
@@ -484,22 +484,22 @@ namespace IstorijosTestas
             story[3].setNextStage("main03");
 
             story[4].setName("main03");
-            story[4].addText("I slowly open my eyes. Where am I? It’s so bright… I look around me. I’m in a capsule. But not in mine. And why does moving my head feels so strange, so… light…");
-            story[4].addText("I gasp and touch my head. My SmartHelm… It’s gone. It’s completely gone. What? When? How? I expected to start panicking, but instead just an irritation fills my head. This is so… unnatural." );
+            story[4].addText("I slowly open my eyes. Where am I? It’s so bright... I look around me. I’m in a capsule. But not in mine. And why does moving my head feels so strange, so... light...");
+            story[4].addText("I gasp and touch my head. My SmartHelm... It’s gone. It’s completely gone. What? When? How? I expected to start panicking, but instead just an irritation fills my head. This is so... unnatural." );
             story[4].addText("I’m about to say for a RoboFriend to open the capsule when suddenly I realise, that I can’t go outside like this. I’m helmetless. ");
             story[4].addText("Shame washes over me, once again raising panic is unnaturally shut down. I’m in the clinic. That’s the only logical explanation.");
             story[4].addText("And now I am here all alone, with only robots to trust on. No outside communication, no endless opportunities to learn and entertain yourself. ");
             story[4].addText("With only some psychos around you. Psychos, who will see you helmetless, who will see you naked of your pinnacle of civilization. ");
-            story[4].addText("I want to cry, but the tears are sucked up before I know it. Is this natural for a helmetless person? I want to find out, but I am afraid to get out of the capsule like this…");
+            story[4].addText("I want to cry, but the tears are sucked up before I know it. Is this natural for a helmetless person? I want to find out, but I am afraid to get out of the capsule like this...");
             story[4].addChoice("sleep", "sleep1");
             story[4].addChoice("get out", "get out");
 
             story[5].setName("sleep1");
             story[5].addText("No, this is too much for me. I don’t want to be seen by others. I don’t want to meet anyone.");
-            story[5].addText("A billion of thoughts pour over me. What will I do now? What will my relatives think about me? How about my friends? I promised to do this and that… How will they respond when they won’t find me?");
+            story[5].addText("A billion of thoughts pour over me. What will I do now? What will my relatives think about me? How about my friends? I promised to do this and that... How will they respond when they won’t find me?");
             story[5].addText("Though they are probably informed by now. How will I continue my life with everyone knowing that my genes are not evolved enough, that I’m not ready for the technology age.");
             story[5].addText("I spend the whole day swinging back and forth, thinking about what, if’s and why’s. I can’t force myself to get out of the capsule. I don’t want to face the reality behind these doors.");
-            story[5].addText("So I stay there until I get tired and go to sleep. The following day…");
+            story[5].addText("So I stay there until I get tired and go to sleep. The following day...");
             story[5].addChoice("sleep", "sleep2");
             story[5].addChoice("get out", "get out");
 
@@ -515,12 +515,12 @@ namespace IstorijosTestas
             story[7].setName("sleeping shutdown");
             story[7].addText("Once again I wake up, deciding not to go anywhere. My breakfast comes from the side of the capsule. I eat it and return to my thoughts, continue the never-ending monologue.");
             story[7].addText("However, after some time something goes wrong. The light behind the opaque glass shuts down. I sit silently, trying not to breath. Will this be my end? ");
-            story[7].addText("Wait… I can’t get out of the capsule if there is no electricity, isn’t that right? ");
+            story[7].addText("Wait... I can’t get out of the capsule if there is no electricity, isn’t that right? ");
             story[7].addText("A panic takes over me. What’s happening? Will I stay here forever right now? Maybe a clinic is shutting down, or there is a fire and everyone’s evacuating?");
-            story[7].addText("Maybe they’ve took all other humans, but forgot to take me? And now I’ll die here, where I’ve been for the few days… or months… or years… or life… I can’t tell by now, how long has it been.");
+            story[7].addText("Maybe they’ve took all other humans, but forgot to take me? And now I’ll die here, where I’ve been for the few days... or months... or years... or life... I can’t tell by now, how long has it been.");
             story[7].addText("A smashing sound hits the glass in front of me. I scream out of terror. Another smashing sound comes in, destroying the glass completely.");
             story[7].addText("I see a robot’s face in front of me. So they did remember me! They’re here for me!");
-            story[7].addText("But then I see a man behind the robot. He lifts up some kind of a framed picture, ready to smash the robot. I…");
+            story[7].addText("But then I see a man behind the robot. He lifts up some kind of a framed picture, ready to smash the robot. I...");
             story[7].addChoice("save robot", "robots side");
             story[7].addChoice("join human", "rebels side");
 
@@ -529,7 +529,7 @@ namespace IstorijosTestas
             story[8].addText("Next to the cells there is a RoboDoc, waiting for any input. I came closer to it.\n-	RoboDoc, where am I?\nRobot turned to me.");
             story[8].addText("- Good day, " + heroesName + ". You’re in the clinic. You’ve got a helmetheria, so you were put into hospital.\n-	When will I get out? Is my condition bad?");
             story[8].addText("- You’ll get out when a symptoms of helmetheria will fade away. So far you’re doing good, though I’m not sure if it’s your progress, or the depressants we gave to you to make the first day calm.");
-            story[8].addText("My eyes pops out. So that’s why I’ve felt so strange back there?\n-	Uhm… I guess I needed that. Thank you. What I should do now? Is there anything interesting to do here?");
+            story[8].addText("My eyes pops out. So that’s why I’ve felt so strange back there?\n-	Uhm... I guess I needed that. Thank you. What I should do now? Is there anything interesting to do here?");
             story[8].addText("- Of course! – RoboDoc said. -  There’s a TV and a bookcase for your entertainment. I know it will not be the same as with the SmartHelm, but it is quite a good substitute.");
             story[8].addText("Please don’t judge such old technology. And I hope you’ll have a nice stay here. The dinner will be ready in a few hours. For your convenience it will show up in your capsule.");
             story[8].addText("Okay. So I have to find myself how to kill this time while I’m here. What should I do now?");
@@ -545,7 +545,7 @@ namespace IstorijosTestas
             story[9].addText("It shows a documentary about the leaders of the country, how technology came and improved our lives, how the war with the neighbouring country started and still goes on.");
             story[9].addText("Once again I’ve felt proud and happy I am to live in this country. Our leaders are great, our values are strong, our will unbroken. We are the good, which in the end spread to this world.");
             story[9].addText("We are the ones who will make this planet full of happiness, truth, love. We are the ones who fight for the good of the people.");
-            story[9].addText("The moves shown were so interesting that I spend the whole day watching them. Another day…");
+            story[9].addText("The moves shown were so interesting that I spend the whole day watching them. Another day...");
             story[9].addChoice("Watch TV", "watch tv");
             story[9].addChoice("Read books", "read books");
             story[9].addChoice("Talk to the robot", "talk to the robot");
@@ -558,9 +558,9 @@ namespace IstorijosTestas
             story[10].addText("It turns out it’s a history book. I’ve always liked history and hearing all those stories of how bad it was in the past, how we were oppressed and used and how good it is now.");
             story[10].addText("Reading all of the stories of how we finally understood the truth, fought for it and won. How we struggled with all the inventions until the miraculous nowadays technology came in.");
             story[10].addText("It really makes me feel great. I feel like we, humanity, did so much, we improved so greatly. We are victorious and better than ever before.");
-            story[10].addText("Even though it was hard reading a real book at first (wait till my friends hear about this! Real book! Wow…), after some time I got used to it.");
+            story[10].addText("Even though it was hard reading a real book at first (wait till my friends hear about this! Real book! Wow...), after some time I got used to it.");
             story[10].addText("I’ve finished the book in what seemed like a couple of hours, but from the silence around me and tiredness it looks like it’s already past midnight.");
-            story[10].addText("I put the book back into the bookcase and go to sleep. Next day…");
+            story[10].addText("I put the book back into the bookcase and go to sleep. Next day...");
             story[10].addChoice("Watch TV", "watch tv");
             story[10].addChoice("Read books", "read books");
             story[10].addChoice("Talk to the robot", "talk to the robot");
@@ -571,8 +571,8 @@ namespace IstorijosTestas
             story[11].setName("talk to the robot");
             story[11].addText("I miss the days I could freely browse through internet for some random facts and funny things. To fill the emptiness of this longing I turn to the RoboDoc.");
             story[11].addText("After a few requests he agrees to tell me anything I want to want, in this way acting like an internet itself.");
-            story[11].addText("At first it tells me all the latest news. Than with my jumping mind and the possibilities of getting all the possible answers we talk about the best diet, the green movement, …");
-            story[11].addText("… how many polar bears there in Antarctica, 10 steps to become a better citizen, the pros and cons of staying single, when and where will my favourite music band will perform, and so on.");
+            story[11].addText("At first it tells me all the latest news. Than with my jumping mind and the possibilities of getting all the possible answers we talk about the best diet, the green movement, ...");
+            story[11].addText("... how many polar bears there in Antarctica, 10 steps to become a better citizen, the pros and cons of staying single, when and where will my favourite music band will perform, and so on.");
             story[11].addText("I talk with him for hours when it suddenly tells me that it is recommended to get back to sleep if I want my skin to look pretty. I thank him and go to capsule. Next day...");
             story[11].addChoice("look around", "look around");
             story[11].addAlternative(1, "talk to Josh");
@@ -585,7 +585,7 @@ namespace IstorijosTestas
             story[12].addText("I look around myself. There is one neighbour in front of my capsule, sitting in his arm-chair. Neighbour in another cell still haven’t come out of his capsule.");
             story[12].addText("There is a painting of the country’s leader on the wall. I go look at his picture closer, when I hear the silent voice:");
             story[12].addText("- Psst, hey, new kid. What’s your name?");
-            story[12].addText("I look towards the voice. The neighbour turned to me in his arm-chair, closely looking at my side.\n-	Um… I’m "+ heroesName +". And you are?...");
+            story[12].addText("I look towards the voice. The neighbour turned to me in his arm-chair, closely looking at my side.\n-	Um... I’m "+ heroesName +". And you are?...");
             story[12].addText("- Josh, - he whispers. He grins devilishly. – Saw you get into your new home yesterday. Must be tough living a new life.");
             story[12].addText("Suddenly a man jumps out of his chair and looks towards the exit, where the RoboDoc is. A man returns his gaze to me. His eyes still looks scared, but he quickly recompose himself and looks with the same confident grin.");
             story[12].addText("- So, how’s it going in your mind? You’re in asylum after all. One of the few places in this country where you can hear your own voice.");
@@ -607,14 +607,14 @@ namespace IstorijosTestas
             story[13].addText("Josh turns to me, a satisfied smile on his lips. “Oh, well, looks who’s back.Wait a minute.”");
             story[13].addText("He then turns to a robot and starts whispering something while wiggling his fingers. Then loudly exhales, stretching his fingers far apart, showing his palms to the robot.");
             story[13].addText("The robot turns from us into a picture of our country’s leader, seemingly ignoring Josh’s craziness. I turn to my neighbour again with one eyebrow raised.He notices me and says:");
-            story[13].addText("“I’m not crazy. Trust me. This is the only way we can talk.”\nSomething in his voice seems different.Calmer, more relaxed, confident… sane.");
+            story[13].addText("“I’m not crazy. Trust me. This is the only way we can talk.”\nSomething in his voice seems different.Calmer, more relaxed, confident... sane.");
             story[13].addText("I quickly blinked my surprised eyes. “Why?” – I ask.");
             story[13].addText("“Because they’re watching, hearing, recording and analysing. Because if they knew what we know, they will force you out of here and torture you with their truths.”");
             story[13].addText("“You may have noticed it by now”, - he continues. – “But you work differently without a helmet. You think differently. You are a different person.”");
             story[13].addText("Josh sees my disbelief, so he adds: “Oh, come on, weren’t things different with a helmet? Whenever a bad thought comes in, it stays. It will not come back. You can stick inside your capsule for days,");
             story[13].addText("without doing nothing, but being depressed, crying more than one teardrop. And nothing calms you, no thought will come to your mind to get you back on your feet and tell you what to do.”");
             story[13].addText("I want to disagree with him, even though he describes exactly how I’ve felt every night before going to sleep. Something deep in the corner of my mind feels that everything he is talking is truth.");
-            story[13].addText("This feeling scares me, so I just listen to him with my eyes popped out, mouth open from surprise. No, this can’t be truth… No… But what if…");
+            story[13].addText("This feeling scares me, so I just listen to him with my eyes popped out, mouth open from surprise. No, this can’t be truth... No... But what if...");
             story[13].addText("“You’re all by yourself,” – he continues, - “alone and vulnerable. Yet you have never been freer. In fact, this is probably the first time you’re actually tasting freedom.”");
             story[13].addText("No, it’s not true --- wait, this is a strange thought. My mind starts to buzz with different ideas and arguments. I put my hands on my forehead, trying to grasp them again into order.");
             story[13].addText("“Funny, isn’t it?” – Josh continues. – “You’re in the prison, where you can’t even get out of your little cell, yet this is the only freedom you have in this fucked up society.”");
@@ -622,18 +622,18 @@ namespace IstorijosTestas
             story[13].myMana = -100;
             story[13].addText("I quickly turn my head to a wall, which made a cracking sound somewhere in my brain. Eyesight gets dark for a second. A swooshing noise comes just next to my ear.");
             story[13].addText("“Ouch!”\nI lower my hands and turn to see Josh grasping his left arm.Next to his toes a book lays.\n“What did you do this time ?” – I ask.");
-            story[13].addText("Josh laughed. “Me? Hahaha, no, dear, it was you. I just didn’t know you’ll be so strong… and rare”. He stares at me with great curiosity and amusement in his mind. I narrow my eyebrows. This whole situation just irritates me. I start to feel a mild pain in the back of my brain again.");
+            story[13].addText("Josh laughed. “Me? Hahaha, no, dear, it was you. I just didn’t know you’ll be so strong... and rare”. He stares at me with great curiosity and amusement in his mind. I narrow my eyebrows. This whole situation just irritates me. I start to feel a mild pain in the back of my brain again.");
             story[13].addText("“Me? I’ve done nothing!” – I say, but then my eyes catch a movement near the ground. The laying book started floating and headed right to Josh’s jaw. I gasp and the book stops two centimetres to my neighbour’s face.");
-            story[13].addText("“This…” – he whispers. – “Is very rare…”\nThe book drops to his feet.I switch my eyes from the book to the Josh’s eyes.");
-            story[13].addText("“What… What was that?” – I ask. \n“Telekinesis, my dear neighbour” – Josh responds. – “A rare and valuable gift.If you learn to use it well, that is.”\n“Te-te-telekinesis?” – I gasp. Josh sees my shock and explains further:");
+            story[13].addText("“This...” – he whispers. – “Is very rare...”\nThe book drops to his feet.I switch my eyes from the book to the Josh’s eyes.");
+            story[13].addText("“What... What was that?” – I ask. \n“Telekinesis, my dear neighbour” – Josh responds. – “A rare and valuable gift.If you learn to use it well, that is.”\n“Te-te-telekinesis?” – I gasp. Josh sees my shock and explains further:");
             story[13].addText("“You see, long ago, this all future technology, which nowadays is adored and praised, caused humans a different kind of mutations. Some has gotten a third eye. Some were left with four arms. Some began to change the magnetic fields of surrounding area to their will,");
             story[13].addText("meanwhile others could imply any wanted image, mirage to the other person’s mind. Some were able to read minds, while others’ touch caused a bodies to melt. Some could become invisible to their own will, and others,");
             story[13].addText("such as you, have gotten a power of telekinesis. Everyone had a different power. But someone didn’t like people having such powers. So the whole knowledge about such abilities were erased from the public.”");
             story[13].addText("I wrinkled my eyebrows. “This must be non-sense. No one could simply erase people’s memories and control such a huge crowd. After all, wouldn’t people re-discover their abilities again? ”");
             story[13].addText("Josh smiled. “I don’t know how it was erased either. Another mutant power? Or maybe the new technology? After all the all mighty and glorified smart-helm could be a good tool to keep people away from their true identities and gifts, don’t you think?”");
-            story[13].addText("I blink. No, it can’t be...  ");
+            story[13].addText("I blink. No, it can’t be...");
             story[13].addText("Strange images appear in my mind. College. Friends. Fireworks. Books flying all around me. Shadows running back and forth. A bucket with a red paint floating away in the air. A dark tunnel. The dreams I had before I got here.");
-            story[13].addText("No, it can’t be… I feel my body get all tensed up. I grip my palm, my breath got quickier. No, it can’t be, but… Josh’s voice disturbs my thoughts.");
+            story[13].addText("No, it can’t be... I feel my body get all tensed up. I grip my palm, my breath got quickier. No, it can’t be, but... Josh’s voice disturbs my thoughts.");
             story[13].addText("“Wow! Now this is a once in a lifetime view.” I look around me. Books from my, Josh’s and our neighbour’s cells floated around the room.");
             story[13].addText("“I think I’ve misjudged you the first time I saw you.” – Josh continued. – “But you have to tune it down a little. You don’t want any robot to see you do your tricks.”");
             story[13].addText("He nodded into the robots side. Surprisingly, it was still looking into the leader’s portrait. I try to relax my muscles a bit and all the books slowly floats down to the ground. I turn to Josh.");
@@ -644,7 +644,7 @@ namespace IstorijosTestas
             story[13].addText("I gulp. This is just so strange. Just yesterday I were a normal citizen, no different from anyone else. And now I am convinced that I can throw objects merely by my will, without moving a finger.");
             story[13].addText("It all seems scary, but something in the back of my mind says I must discover more. I want to know what happened. For how long do I have this “gift”? Why was it hidden from me? What more secrets hides in the corners of this asylum?");
             story[13].addText("I nod and our training begins. After a few hours of tossing books back and forth, trying to concentrate and channel my energy to objects for them to fly wherever I get tired.");
-            story[13].addText("Thankfully, Josh also gets tired of holding the robot in one place without electricity, so we call it a day. I get back to my cell, eager to know what else can I do tomorrow with my powers. The following day I… ");
+            story[13].addText("Thankfully, Josh also gets tired of holding the robot in one place without electricity, so we call it a day. I get back to my cell, eager to know what else can I do tomorrow with my powers. The following day I... ");
             story[13].addChoice("Watch TV", "watch tv");
             story[13].addChoice("Read books", "read books");
             story[13].addChoice("Talk to the robot", "talk to the robot");
@@ -667,12 +667,12 @@ namespace IstorijosTestas
             story[15].addText("Today I wake up, get out of the capsule, and sit in the armchair. I decide that I need some time to ponder on what happened to me.");
             story[15].addText("Just a week or so I was petrified of the idea of getting my smart-helm off and be in the clinics. Yet now I feel more confident. It is not that bad. I’ve got to know new things, spend my time doing multiple interesting things.");
             story[15].addText("I still miss my smart-helm. It’s ability to play whatever song I want. Browse the internet, get to know new facts, receipts, ideas. Socialise with friends and family.");
-            story[15].addText("But in a way this state I am in now seems… better. What is it that I like about this place? I keep wondering about all the experiences I had here, when suddenly…");
+            story[15].addText("But in a way this state I am in now seems... better. What is it that I like about this place? I keep wondering about all the experiences I had here, when suddenly...");
             story[15].setNextStage("main05");
 
             story[16].setName("main05");
             story[16].addText("The light turns black.");
-            story[16].addText("I blink few times. “Wait… what?” – I whisper into darkness. Few seconds later robot turns his eyes’ flashlights.");
+            story[16].addText("I blink few times. “Wait... what?” – I whisper into darkness. Few seconds later robot turns his eyes’ flashlights.");
             story[16].addText("“Everyone, calm do...” – the robot started to say, but then Josh realised what just happened and jumped on the robot, attacking him.");
             story[16].addText("We were free. Our cells were no longer a cell. Without electric grid, we were merely two people and a robot in one big room.");
             story[16].addText("I look into a started fight between the robot and Josh the grunting crazy-looking neighbour. I need to interfere or they will kill one another. And so I:");
@@ -719,14 +719,14 @@ namespace IstorijosTestas
 
             story[21].setName("rebels side 04");
             story[21].myHeart = -15;
-            story[21].addText("If only we could somehow safely turn the robot down or tie him up… But there’s no time for that in the middle of the fight. The robot is just about to punch Josh in the face again, when I grab its arms from the back.");
+            story[21].addText("If only we could somehow safely turn the robot down or tie him up... But there’s no time for that in the middle of the fight. The robot is just about to punch Josh in the face again, when I grab its arms from the back.");
             story[21].addText("Taking the advantage of his opponent’s sudden stop, Josh punches the robot’s head. The metallic humanoid leans back, hitting my face. My nose gets pushed by the robot’s neck, its touch with something made of rubber makes a clicking sound. Forehead gets punched by the rest of the metallic head.");
             story[21].addText("I scream out of suddenness and pain. The humanoid in my arms collapses. \n“Oh, crap.” – Josh curses. – “You alright ?”");
-            story[21].addText("I check my nose… but it seems fine. \n“Yeah, kind of…” – I answer, wondering.");
+            story[21].addText("I check my nose... but it seems fine. \n“Yeah, kind of...” – I answer, wondering.");
             story[21].setNextStage("rebel main 01");
 
             story[22].setName("rebel main 01");
-            story[22].addText("I loudly exhale.\n“So… what do we do now ?” – I ask.\n„We run, of course“ – Josh says. I turn to the doors.");
+            story[22].addText("I loudly exhale.\n“So... what do we do now ?” – I ask.\n„We run, of course“ – Josh says. I turn to the doors.");
             story[22].addChoice("Go through the doors in front of you", "go straight 01");
             story[22].addChoice("Go through the doors on your right", "turn right 01");
 
@@ -766,7 +766,7 @@ namespace IstorijosTestas
             story[27].addChoice("Continue going through corridor", "Go straight 02");
 
             story[28].setName("Go straight 02");
-            story[28].addText("We ignore the doors near as and go further to the corridor. Unfortunately, we meet the similar situation. There are two doors on both our sides and one door in front of us. It seems that the corridor still goes further though…");
+            story[28].addText("We ignore the doors near as and go further to the corridor. Unfortunately, we meet the similar situation. There are two doors on both our sides and one door in front of us. It seems that the corridor still goes further though...");
             story[28].addChoice("Go through the doors on the left", "Cell 01");
             story[28].addAlternative(1, "Empty cell");
             story[28].addAlternative(2, "Empty cell. With Joanna");
@@ -790,7 +790,7 @@ namespace IstorijosTestas
             story[29].addText("I gasp with wonder, as a woman quickly destroys three of the robots. One robot is about to hit her in the head, when another fireball from the opened room appears and hits the attacking robot.");
             story[29].addText("I concentrate my energy and smash another robot to the wall. Another robot suddenly gets stunned. “Josh’s work” – I think to myself.");
             story[29].addText("In just few minutes, the robots were done and over. The woman turns toward us, and just then I’ve notice that she did not have any swords with her. Her arms were the swords themselves.");
-            story[29].addText("- Who are you? – the woman speaks.\n- We were the prisoners.And since the power shut down… -I hesitate for a second.\n- We are runaways. – Josh ends my sentence. – Fellow humans.\n- Good.Come with me.");
+            story[29].addText("- Who are you? – the woman speaks.\n- We were the prisoners.And since the power shut down... -I hesitate for a second.\n- We are runaways. – Josh ends my sentence. – Fellow humans.\n- Good.Come with me.");
             story[29].addText("She shows towards the door she just rushed in through and so we follow her.");
             story[29].setNextStage("resolution");
 
@@ -819,7 +819,7 @@ namespace IstorijosTestas
             story[32].setName("People.Fight.Stun");
             story[32].myMana = -20;
             story[32].addText("- Okay, - the woman replies, - together we may defeat them. Let’s go.\nWe went through the door to meet 8 robots troop.");
-            story[32].addText("- Oh my… - I whispered. A woman did not hesitate. She let out a grunt and started attacking the robots with two swords. Wait, swords? How did she get them? Just then one of the robots swings its arm, ready to punch me. But suddenly it stops.");
+            story[32].addText("- Oh my... - I whispered. A woman did not hesitate. She let out a grunt and started attacking the robots with two swords. Wait, swords? How did she get them? Just then one of the robots swings its arm, ready to punch me. But suddenly it stops.");
             story[32].addText("- Don’t just stand around! – Josh shouts. – Use your powers!");
             story[32].addText("I regain myself and concentrate. Three robots flies into the air. I throw them in the end of the corridor, so they would not interfere right now. In the meantime, a fireball swooshes past me and hits the metallic humanoid next to me. I turn to meet Joanna’s, the girl who went with us, smile.");
             story[32].addText("- Wow, - I whisper and turn back to the fighting scene. The three thrown robots came back, but by that time every other metallic humanoid were destroyed by the woman in the green dress. ");
@@ -840,7 +840,7 @@ namespace IstorijosTestas
             story[35].setName("resolution");
             story[35].myMana = 100;
             story[35].myHeart = 100;
-            story[35].addText("The woman notices me staring at her arms and grins. Then, in front of my own eyes, I see how those swords turn into the gentle looking human hands.\n- What in the world… -I start, but the woman interrupts, answering my question:");
+            story[35].addText("The woman notices me staring at her arms and grins. Then, in front of my own eyes, I see how those swords turn into the gentle looking human hands.\n- What in the world... -I start, but the woman interrupts, answering my question:");
             story[35].addText("- I can morph my body into any shape and material I want. I’m Dominic, by the way. My jaws drop.\n- Wait, isn’t that a man’s name ? – I ask.She laughs.\n- Well, yes, it is. As I said – morph into any shape. As I keep standing there, stunned by her words, Josh starts to laugh himself.");
             story[35].addText("- A sword to survive among robots and a woman’s body to fight your way amongst people. Pretty smart, I would say.\n- It’s not like that. – Dominic fires back with a wry smile. – Anyway, what’s your name and what are your plans ?");
             story[35].addText("- I’m Josh. And this is " + heroesName + ". We are planning to get out from this asylum. What else there is to do here?");
@@ -859,7 +859,7 @@ namespace IstorijosTestas
 
             story[36].setName("turn left 01");
             story[36].addText("We turn to our left and continue moving the corridor. Suddenly Josh grabs my arm and stops.\n- What is it? – I say.");
-            story[36].addText("- Shhhh… - he whispers. He stands there for a few minutes and then panickily replies, - the robots are coming this way. We better run! We turn back and start to run.");
+            story[36].addText("- Shhhh... - he whispers. He stands there for a few minutes and then panickily replies, - the robots are coming this way. We better run! We turn back and start to run.");
             story[36].setTrigger("robots are coming");
             story[36].setNextStage("turn right 02");
 
