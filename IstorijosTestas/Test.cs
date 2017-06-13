@@ -7,7 +7,7 @@ using System.IO;
 
 namespace IstorijosTestas
 {
-    class Test
+    public class Test
     {
         String[] Questions = 
             {"Once in a while I can't control the urge to strike another person.\n",
@@ -40,10 +40,10 @@ namespace IstorijosTestas
             "I sometimes feel that people are laughing at me behind me back.\n",
             "When people are especially nice, I wonder what they want.\n"};
 
-        double physical = 0;
-        double verbal = 0;
-        double anger = 0;
-        double hostility = 0;
+        public double physical = 0;
+        public double verbal = 0;
+        public double anger = 0;
+        public double hostility = 0;
         void Question(string q, ref double points)
         {
             Console.Write(q + "\n" + "1 - extremely uncharacteristic of me\n2 - uncharacteristic of me\n"+

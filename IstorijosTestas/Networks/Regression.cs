@@ -48,7 +48,7 @@ namespace Machinelearning_test
         }
 
 
-        private double[] convertArray(double[][] array)
+        public static double[] convertArray(double[][] array)
         {
             double[] newArray = new double[array.Length];
             var count = 0;

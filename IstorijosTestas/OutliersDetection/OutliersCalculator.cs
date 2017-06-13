@@ -14,37 +14,11 @@ namespace Machinelearning_test
     {
         private static int outlierMark = -666;
 
-        public static void code()
-        {
-            String failas = @"C:\Users\Simas\Documents\Intelektika\Projekt\data.txt";
-            var data = new double[] { 8,7,5,6,4,1,2,3,9 };
-            double[][] testin = new double[0][];//= new double[][] {new double[] {8,2 }, new double[] { 3,4 }, new double[] {5,6}, new double[] { 4,2}, new double[] {7,5}, new double[] {15,10 } };
-            double[][] testout = new double[0][];//= new double[][] {  new double[] {1 }, new double[] { 2}, new double[] {15 }, new double[] {3 }, new double[] { 4}, new double[] { 5} };
-            FileActions.readDataFile(failas, ref testin, ref testout);
-
-
-           cleanData(ref testin, ref testout);
-           
-            for(int i = 0; i<testin.Length; i++)
-            {
-                Console.Write("\n ");
-                for (int j = 0; j< testin[i].Length; j++)
-                {
-                    Console.Write(" " + testin[i][j]);
-                }
-                for (int j = 0; j < testout[i].Length; j++)
-                {
-                    Console.Write(" " + testout[i][j]);
-                }
-            }
-            
-        }
-
-
         public static void cleanData(ref double[][] input,ref double[][] output) 
         {
             var list = getOutliersIndexes(input,output);
             deleteOutliers(ref input,ref output, list);
+           // Console.ReadKey();
         }
 
         public static void deleteOutliers(ref double[][] input, ref double[][] output, List<List<int>> outliersIndexes)
@@ -84,7 +58,7 @@ namespace Machinelearning_test
                     if (data[i][j] == outlierMark)
                     {
                         list.RemoveAt(i);
-                        Console.WriteLine("elements deleted" );
+                       // Console.WriteLine("elements deleted" );
                         break;
                     }
                 }
@@ -115,7 +89,6 @@ namespace Machinelearning_test
             var oulietsIndexes = new List<int>();
             for(int i= 0; i< data.Length; i++)
             {
-                Console.WriteLine(" data: " +data[i]);
                 if(data[i]> UpperLimit || data[i]<LowerLimit)
                 {
                     oulietsIndexes.Add(i);

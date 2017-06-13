@@ -45,14 +45,15 @@ namespace Machinelearning_test
             this.min = getMin(input, output); // jeigu bus pastovios max min values irasyt ranka.
 
             this.input = convertArray(input, min, max);
-            for (int i = 0; i < this.input.Length; i++)
-            {
-                for (int j = 0; j < this.input[i].Length; j++)
-                {
-                    Console.WriteLine(this.input[i][j]);
-                }
-            }
+            //for (int i = 0; i < this.input.Length; i++)
+            //{
+            //    for (int j = 0; j < this.input[i].Length; j++)
+            //    {
+            //        Console.WriteLine(this.input[i][j]);
+            //    }
+            //}
             this.output = convertArray(output, min, max);
+            OutliersCalculator.cleanData(ref this.input,ref this.output);
         }
 
         public void teachNetwork()
@@ -61,8 +62,9 @@ namespace Machinelearning_test
             while (iteration < iterations)
             {
                 double error = teacher.RunEpoch(input, output);
-                Console.Clear();
+                
                 Console.Write(error);
+                Console.Clear();
                 iteration++;
             }
             //network.

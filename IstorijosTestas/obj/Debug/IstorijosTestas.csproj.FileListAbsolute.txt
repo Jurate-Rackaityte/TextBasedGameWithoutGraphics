@@ -19,7 +19,6 @@ C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\bi
 C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\bin\Debug\AForge.Controls.dll
 C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\bin\Debug\AForge.dll
 C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\bin\Debug\AForge.Neuro.dll
-C:\Users\Simas\Source\Repos\TextBasedGameWithoutGraphics2\IstorijosTestas\obj\Debug\IstorijosTestas.csprojResolveAssemblyReference.cache
 C:\Users\Simas\Source\Repos\TextBasedGameWithoutGraphics2\IstorijosTestas\bin\Debug\Accord.dll.config
 C:\Users\Simas\Source\Repos\TextBasedGameWithoutGraphics2\IstorijosTestas\bin\Debug\IstorijosTestas.exe.config
 C:\Users\Simas\Source\Repos\TextBasedGameWithoutGraphics2\IstorijosTestas\bin\Debug\IstorijosTestas.exe
@@ -67,3 +66,4 @@ C:\Users\Simas\Source\Repos\TextBasedGameWithoutGraphics2\IstorijosTestas\bin\De
 C:\Users\Simas\Source\Repos\TextBasedGameWithoutGraphics2\IstorijosTestas\bin\Debug\zh-tw\ZedGraph.resources.dll
 C:\Users\Simas\Source\Repos\TextBasedGameWithoutGraphics2\IstorijosTestas\obj\Debug\IstorijosTestas.exe
 C:\Users\Simas\Source\Repos\TextBasedGameWithoutGraphics2\IstorijosTestas\obj\Debug\IstorijosTestas.pdb
+C:\Users\Simas\Source\Repos\TextBasedGameWithoutGraphics2\IstorijosTestas\obj\Debug\IstorijosTestas.csprojResolveAssemblyReference.cache

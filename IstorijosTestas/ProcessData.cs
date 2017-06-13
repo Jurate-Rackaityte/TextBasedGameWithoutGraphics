@@ -28,6 +28,14 @@ namespace Machinelearning_test
             trainNetworks();   
         }
 
+        public void processDataNoOutput( double[][] output)
+        {
+            FileActions.readDataFile(this.file, ref input);
+            this.output = output;
+            InitializeNetworks();
+            setUpNetworks();
+            trainNetworks();
+        }
 
         public double getPrediction(double[] input)
         {
@@ -114,7 +122,6 @@ namespace Machinelearning_test
             foreach (INetwork network in networks)
             {
                 var prediction = network.getPrediction(input);
-                Console.WriteLine("pred: " +prediction);
                 predictions.Add(prediction);
 
             }
@@ -122,14 +129,14 @@ namespace Machinelearning_test
         }
         private void InitializeNetworks()
         {
-            Network network1 = new Network(input[0].Length, 4, 1);
+            Network network1 = new Network(input[0].Length, 8, 1);
             network1.initiateBPNTeacher();
 
             Network network2 = new Network(input[0].Length, 8, 1);
             network2.initiateRBPNTeacher();
 
 
-            AccordNetwork network3 = new AccordNetwork(input[0].Length, 5, 1);
+            AccordNetwork network3 = new AccordNetwork(input[0].Length, 8, 1);
             network3.initiateParallelRBL();
 
             //Regression network4 = new Regression(2);
