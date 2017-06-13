@@ -16,3 +16,6 @@ C:\Users\Vartotojas\Documents\TextBasedGameWithoutGraphics\IstorijosTestas\bin\D
 C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\obj\Debug\IstorijosTestas.csprojResolveAssemblyReference.cache
 C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\bin\Debug\IstorijosTestas.exe
 C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\bin\Debug\IstorijosTestas.pdb
+C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\bin\Debug\AForge.Controls.dll
+C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\bin\Debug\AForge.dll
+C:\Users\Jurate\Documents\GitHub\TextBasedGameWithoutGraphics\IstorijosTestas\bin\Debug\AForge.Neuro.dll

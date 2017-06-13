@@ -450,7 +450,7 @@ namespace IstorijosTestas
             story[0].addText("They all wanted me to feel miserable, alone, powerless, out of control... And so I’ve");
             story[0].addChoice("started to run", "01");
             story[0].addChoice("tried to fight them", "02");
-
+             
             story[1].setName("01");
             story[1].addText("I ran deeper into the darkness, desperately trying to escape the giant eye. However, it’s gaze did not leave me for a second, petrifying me more and more with every step I took. Shadowy figures squealed behind me, restlessly chasing me. ");
             story[1].addText("My legs started to feel heavy. My pace reluctantly slowed down. Heart raced so quickly, it seemed it will jump out any second. Shadowy figures reached me, tied me, lifted my head. The huge drill was already there, ready to pierce through my skull. ");
@@ -527,10 +527,10 @@ namespace IstorijosTestas
             story[8].setName("get out");
             story[8].addText("The room was bright, with three cells. It had an electric grid around each cell. Each cell had a bookcase, a TV, a chair and a picture of the country’s leader. Nothing abnormal.");
             story[8].addText("Next to the cells there is a RoboDoc, waiting for any input. I came closer to it.\n-	RoboDoc, where am I?\nRobot turned to me.");
-            story[8].addText("-	Good day, " + heroesName + ". You’re in the clinic. You’ve got a helmetheria, so you were put into hospital.\n-	When will I get out? Is my condition bad?");
-            story[8].addText("-	You’ll get out when a symptoms of helmetheria will fade away. So far you’re doing good, though I’m not sure if it’s your progress, or the depressants we gave to you to make the first day calm.");
+            story[8].addText("- Good day, " + heroesName + ". You’re in the clinic. You’ve got a helmetheria, so you were put into hospital.\n-	When will I get out? Is my condition bad?");
+            story[8].addText("- You’ll get out when a symptoms of helmetheria will fade away. So far you’re doing good, though I’m not sure if it’s your progress, or the depressants we gave to you to make the first day calm.");
             story[8].addText("My eyes pops out. So that’s why I’ve felt so strange back there?\n-	Uhm… I guess I needed that. Thank you. What I should do now? Is there anything interesting to do here?");
-            story[8].addText("-	Of course! – RoboDoc said. -  There’s a TV and a bookcase for your entertainment. I know it will not be the same as with the SmartHelm, but it is quite a good substitute.");
+            story[8].addText("- Of course! – RoboDoc said. -  There’s a TV and a bookcase for your entertainment. I know it will not be the same as with the SmartHelm, but it is quite a good substitute.");
             story[8].addText("Please don’t judge such old technology. And I hope you’ll have a nice stay here. The dinner will be ready in a few hours. For your convenience it will show up in your capsule.");
             story[8].addText("Okay. So I have to find myself how to kill this time while I’m here. What should I do now?");
             story[8].addChoice("Watch TV","watch tv");
@@ -1189,7 +1189,7 @@ namespace IstorijosTestas
 
             story[81].setName("Stuck doors");
             story[81].addText("We tried opening the doors, but we couldn't. It seems they are stuck.");
-            story[81].addChoice("Use powers to open the doors (-10 mana)", "Stuck doors open");             
+            story[81].addChoice("Use powers to open the door (-10 mana)", "Stuck doors open");             
             story[81].addChoice("Leave it be", "2doors 2");
 
             story[85].setName("Stuck doors open");
@@ -1343,7 +1343,7 @@ namespace IstorijosTestas
 
             story[84].setName("Elevator 02");
             story[84].addText("We go straight and see another closed door. Should we try to open it?");
-            story[84].addChoice("Use powers to open the doors (-10 mana)", "Elevator 02 open");
+            story[84].addChoice("Use powers to open the door (-10 mana)", "Elevator 02 open");
             story[84].addChoice("Go back", "Stage3 2nd crossroad");
 
             story[86].setName("Elevator 02 open");

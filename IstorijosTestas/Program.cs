@@ -15,14 +15,17 @@ namespace IstorijosTestas
             Test a = new Test();
             a.AskAll();
 
-            Story test = new Story("Eglute");               // gauti zaidejo varda is pacio zaidejo
+            string vardas = "";
+            Console.Write("Write your name and press ENTER: ");
+            vardas = Console.ReadLine();
+            Story test = new Story(vardas);               // gauti zaidejo varda is pacio zaidejo
             StoryAndPointer pointer = new StoryAndPointer();
             bool hasOptions = false;                // jei turi pasirinkimu, tai juos ir rodysim, gaudysim tikslu input
             StoryAndPointer[] choices = new StoryAndPointer[10];
 
-            Console.WriteLine("\t" + "Now please read the story and choose the best fit answers.");
-            Console.WriteLine("\t" + "It\'s a text-based game, so don\'t worry. Every answer is a good answer.");
-            Console.WriteLine("\t" + "Just try to survive.");
+            Console.WriteLine("Now please read the story and choose the best fit answers.");
+            Console.WriteLine("It\'s a text-based game, so don\'t worry. Every answer is a good answer.");
+            Console.WriteLine("Just try to survive.");
             Console.WriteLine("---------------------------------------");
             Console.WriteLine();
 
@@ -50,7 +53,7 @@ namespace IstorijosTestas
                 //parasyti i console teksta
                 if(!hasOptions)
                 {
-                    Console.WriteLine("\t" + pointer.getStory());
+                    Console.WriteLine(pointer.getStory());
                     Console.ReadLine();
                 }
                 else
@@ -90,16 +93,10 @@ namespace IstorijosTestas
             Console.WriteLine("Aggresiveness in game: " + test.aggresiveness);
             Console.ReadLine();
 
-            int theEnd = 0;     int helpOtherCountry = 0;
-            if (test.theEnd)
-                theEnd = 1;
-            if (test.helpOtherCountryToWin)
-                helpOtherCountry = 1;
-
             File.AppendAllText("outputResults.txt", test.myHealth + "," + test.myMana 
                 + "," + test.JoannaHealth + "," + test.JoannaMana 
                 + "," + test.JoshHealth + "," + test.JoshMana 
-                + "," + test.aggresiveness + "," + theEnd + "," + helpOtherCountry + Environment.NewLine);
+                + "," + test.aggresiveness +  Environment.NewLine);
         }
     }
 }
