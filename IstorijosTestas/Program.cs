@@ -9,6 +9,20 @@ namespace IstorijosTestas
 {
     class Program
     {
+
+        public int agresyvumasZaidime(int playersHealth, int playersMana, int JoannaHealth, int JoannaMana, 
+            int JoshHealth, int JoshMana, int aggression)
+        {
+            int agresyvumas;
+            // kuo didesni sie rodikliai, tuo didesnis agresyvumas
+            agresyvumas = Convert.ToInt32(Math.Floor(playersHealth * 0.5 + playersMana * 0.5 + 
+                JoannaHealth * 0.25 + aggression * 2));
+            // kuo didesni sie rodikliai, tuo mazesnis agresyvumas
+            agresyvumas = agresyvumas - Convert.ToInt32(Math.Floor(JoannaMana * 0.5 + 
+                JoshHealth * 0.1 + JoshMana * 0.25));
+            return agresyvumas;
+        }
+
         static void Main(string[] args)
         {
             // Agresyvumo testo klausimai
@@ -84,6 +98,10 @@ namespace IstorijosTestas
                 Console.WriteLine("---------------------------------------");
                 Console.WriteLine();
             }
+            Program p = new Program();
+            int agresvumas = p.agresyvumasZaidime(test.myHealth, test.myMana,
+                test.JoannaHealth, test.JoannaMana, test.JoshHealth,
+                test.JoshMana, test.aggresiveness);
             Console.WriteLine("Player\'s health: " + test.myHealth);
             Console.WriteLine("Player\'s mana: " + test.myMana);
             Console.WriteLine("Joanna\'s health: " + test.JoannaHealth);
@@ -91,12 +109,15 @@ namespace IstorijosTestas
             Console.WriteLine("Josh\'s health: " + test.JoshHealth);
             Console.WriteLine("Josh\'s mana: " + test.JoshMana);
             Console.WriteLine("Aggresiveness in game: " + test.aggresiveness);
+            Console.WriteLine("Total calculated aggresiveness: " + agresvumas);
             Console.ReadLine();
 
-            File.AppendAllText("outputResults.txt", test.myHealth + "," + test.myMana 
-                + "," + test.JoannaHealth + "," + test.JoannaMana 
-                + "," + test.JoshHealth + "," + test.JoshMana 
-                + "," + test.aggresiveness +  Environment.NewLine);
+            //CIA IDETI AGRESYVUMA PRIE DATA
+
+            //File.AppendAllText("outputResults.txt", test.myHealth + "," + test.myMana 
+            //    + "," + test.JoannaHealth + "," + test.JoannaMana 
+            //    + "," + test.JoshHealth + "," + test.JoshMana 
+            //    + "," + test.aggresiveness +  Environment.NewLine);
         }
     }
 }
