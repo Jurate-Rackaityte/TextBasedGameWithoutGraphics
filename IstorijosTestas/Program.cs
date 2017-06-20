@@ -121,6 +121,12 @@ namespace IstorijosTestas
 
 
                 FileActions.AppendResult(fileResults, a, agresvumas);
+                //pridedame atskiras mana reiksmes
+                File.AppendAllText(fileResults,"\n");
+                foreach (int manaValue in test.manaList)
+                {
+                    File.AppendAllText(fileResults, manaValue + " ");
+                }
 
                 Console.ReadLine();
             }

@@ -19,6 +19,7 @@ namespace IstorijosTestas
         private string heroesName;
         private int robotFinalCount;
         private const int numberOfOptions = 123;
+        public List<int> manaList;
 
         public Story(string playerName)
         {
@@ -39,6 +40,8 @@ namespace IstorijosTestas
             optionPointer = 0;
             robotFinalCount = 10;
             aggresiveness = 0;
+
+            manaList = new List<int>();
 
             for(int i = 0; i < numberOfOptions; i++)
             {
@@ -81,7 +84,11 @@ namespace IstorijosTestas
             JoannaHealth += story[x].JoannaHeart;
             JoannaMana += story[x].JoannaMana;
             if (tempMyMana != 100)
+            {
                 myMana += tempMyMana;
+                manaList.Add(tempMyMana);
+            }
+                
             else
                 myMana = 100;
             if (tempMyHeart != 100)
@@ -141,7 +148,11 @@ namespace IstorijosTestas
                 JoannaHealth += story[x].JoannaHeart;
                 JoannaMana += story[x].JoannaMana;
                 if (tempMyMana != 100)
+                {
                     myMana += tempMyMana;
+                    manaList.Add(tempMyMana);
+                }
+
                 else
                     myMana = 100;
                 if (tempMyHeart != 100)
